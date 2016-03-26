@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 16px;
+}
+
+ul li a {
+	width:80%;
+	max-width: 24em;
+	margin: 0 auto;
+}
+
+ul li:last-child {
+    border-bottom: none
+}
+
+a:link, a:visited {
+	background-color: #470066;
+    color: white;
+    padding: 14px 25px;
+	border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
